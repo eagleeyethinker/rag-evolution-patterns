@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-openai
+chromadb
+cohere
+duckduckgo-search
+tiktoken
+pypdf
+rapidocr_onnxruntime
+pillow

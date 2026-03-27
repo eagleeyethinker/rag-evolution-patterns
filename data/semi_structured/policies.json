@@ -1,0 +1,37 @@
+[
+  {
+    "id": "eng-us-remote",
+    "department": "engineering",
+    "region": "us",
+    "audience": "individual_contributor",
+    "content": "Engineering staff in the US can work remotely up to 3 days a week and should be online during 10 AM to 3 PM EST."
+  },
+  {
+    "id": "sales-us-travel",
+    "department": "sales",
+    "region": "us",
+    "audience": "individual_contributor",
+    "content": "Sales staff can expense customer travel and meals with manager approval."
+  },
+  {
+    "id": "eng-eu-equipment",
+    "department": "engineering",
+    "region": "eu",
+    "audience": "individual_contributor",
+    "content": "Engineering staff in the EU receive a 450 EUR allowance for home office equipment and should align on local working hours."
+  },
+  {
+    "id": "manager-global-budget",
+    "department": "all",
+    "region": "global",
+    "audience": "manager",
+    "content": "Managers can approve home office exceptions above the standard stipend when accessibility or compliance requires it."
+  },
+  {
+    "id": "support-us-shifts",
+    "department": "support",
+    "region": "us",
+    "audience": "individual_contributor",
+    "content": "Support teams follow staggered shifts and do not use the standard remote-work core hours."
+  }
+]

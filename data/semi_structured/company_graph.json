@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "remote_work_policy", "type": "policy", "text": "Employees can work from home up to 3 days a week during 10 AM to 3 PM EST core hours."},
+    {"id": "home_office_budget", "type": "benefit", "text": "Full-time employees receive a $500 home office stipend."},
+    {"id": "standing_desks", "type": "purchase_type", "text": "Standing desks are an approved use of the home office stipend."},
+    {"id": "product_x", "type": "product", "text": "Product X is the company laptop."},
+    {"id": "product_x_warranty", "type": "warranty", "text": "Product X has a 3-year AppleCare warranty."},
+    {"id": "product_y", "type": "product", "text": "Product Y is the external monitor."},
+    {"id": "product_y_warranty", "type": "warranty", "text": "Product Y has a 1-year manufacturer warranty."}
+  ],
+  "edges": [
+    {"source": "home_office_budget", "target": "standing_desks", "relation": "covers"},
+    {"source": "product_x", "target": "product_x_warranty", "relation": "has_warranty"},
+    {"source": "product_y", "target": "product_y_warranty", "relation": "has_warranty"},
+    {"source": "remote_work_policy", "target": "home_office_budget", "relation": "related_to"}
+  ]
+}

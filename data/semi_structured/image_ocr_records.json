@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sample_invoice",
+    "image_path": "data/unstructured/images/sample_invoice.jpg",
+    "source_type": "invoice_image",
+    "ocr_text": "Contoso invoice for Microsoft. Billing address includes 1020 Enterprise Way, Sunnyvale, CA 87659. Invoice number 34278587. Invoice date 6/18/2017. Invoice due date 6/24/2017. Charges total $56,651.49. VAT ID PT."
+  },
+  {
+    "id": "receipt",
+    "image_path": "data/unstructured/images/receipt.png",
+    "source_type": "receipt_scan",
+    "ocr_text": "Receipt from Contoso Contoso dated 2019-06-10. Line items include Cappuccino and BACON & EGGS. Subtotal 12.00, tax 1.50, tip 1.00, total 14.50."
+  }
+]

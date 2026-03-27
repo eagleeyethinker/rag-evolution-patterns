@@ -1,0 +1,22 @@
+[
+  {
+    "id": "slide-1",
+    "modality": "slide_text",
+    "content": "Quarterly HR slide: Remote-work pilot remains at 3 days per week. Core hours stay 10 AM to 3 PM EST."
+  },
+  {
+    "id": "whiteboard-photo",
+    "modality": "image_caption",
+    "content": "Photo of a whiteboard after a facilities meeting. The sketch says: 'Use home office stipend for desks, chairs, monitors. Cap remains $500.'"
+  },
+  {
+    "id": "budget-table",
+    "modality": "table_ocr",
+    "content": "OCR from reimbursement table: standing desk approved up to stipend limit, chair approved, premium desk needs manager exception."
+  },
+  {
+    "id": "warranty-diagram",
+    "modality": "diagram_text",
+    "content": "Diagram showing Product X laptop mapped to 3-year AppleCare and Product Y monitor mapped to 1-year warranty."
+  }
+]
